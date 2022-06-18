@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family:'droid';
+    src: url('fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family:'bebas';
+    src: url('fontes/BebasNeue-Regular.otf') format('opentype');
+    font-weight: thin;
+    font-style: normal;
+}
+
+header{
+    background-color: #2fa866;
+    background-image: linear-gradient(to top, #3ddc84,#2fa866,);
+    color: white;
+    font-weight: thin;
+    text-decoration: none;
+}
+header > nav{
+    background-color: #2fa866;
+    text-decoration: none;
+    font-family: 'bebas';
+
+}
+span{
+    color: #2fa866;
+}
+.linktexto{
+    color: #3ddc84;
+}
+.titulo{
+    font-family: 'bebas';
+    text-align: center;
+}
+.subtitulo{
+    font-family: 'bebas';
+    text-align: center;
+}
+
+.principal {
+    font-family:'droid';
+    background-image: linear-gradient(to right, #3ddc8571, #c5ebd613 );
+}
+h1{
+    font-family:'droid';
+} 
+h2{
+    color:#063d1e ;
+}  
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+.nomes:visited{
+    color: #18ee75;
+}
+.cabecalho:visited{
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    padding-right: 20px;
+    padding-left: 10px;
+    color: #3ddc84;
+}
+
+div{
+    background-color: #063d1e;
+    padding: 20px 30px;
+    border: 20px;
+    text-align: center;
+}
+
+.imagem{
+    background-color: transparent;
+    margin: auto;
+}
+
+main{
+    background-color: white;
+    border: 200px;
+    border-color: #18ee75;
+    padding: 10px 30px;
+
+}
+.fundo{
+    border: 80px solid #18ee75;
+    padding: 100;
+}
+
+.caixafinal{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: #2fa866;
+    padding: 20px;
+    
+}
+
+aside{
+    background-color: #2fa86548;
+    padding: 10px;
+    margin-left: 1px;
+    margin-right: 1px;
+}
