@@ -31,7 +31,7 @@
               <p><label for="data">Data de Nascimento: <input type="date" name="data" id="data"></label></p>
               <p><label for="email">E-mail:<input type="email" id="email" placeholder="exemplo@exemplo.com.br"></label></p>
               <p><label for="senha">Senha: <input type="password" name="senha" id="senha" size="8" maxlength="8" placeholder="8 Dígitos"></label></p>
-              <p>Telefone: <input type="tel" name="telefone" id="telefone" size="11" maxlenght="11" placeholder="DDD+Numero"></p>
+              <p><label for="telefone">Telefone: <input type="tel" name="telefone" id="telefone" size="11" maxlenght="11" placeholder="DDD+Numero"></label></p>
 
             </fieldset>
 
@@ -46,7 +46,11 @@
                         <label for="outro">Outro</label>
                     </fieldset>
                     <fieldset>
-                    
+                        <legend>Dados de Endereço:</legend>
+                        <p><label for="end">Logradouro</label> <input type="text" name="endereco" id="end" placeholder="Rua Fictícia"></p>
+                        <p><label for="num">Número <input type="number" name="numero" id="num" min="0" max="99999" placeholder="9999"></label></p>
+                        <p><label for="cid">Cidade <input type="text" name="cid" id="cid" placeholder="Ipatinga"></label></p>
+                        <p><label for="estado">Estádo <input type="text" name="estado" id="estado" placeholder="MG" size="2" maxlength="2"></label></p>
                     </fieldset>
                 </p>
 
